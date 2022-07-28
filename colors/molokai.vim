@@ -111,7 +111,7 @@ hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
 hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 
 if s:molokai_original == 1
-   hi Normal          guifg=#F8F8F2 guibg=none
+   hi Normal          guifg=#F8F8F2 guibg=#161616
    hi NormalFloat     guifg=#DADADA guibg=#262626
    hi Comment         guifg=#585858
    hi CursorLine                    guibg=#3E3D32
@@ -119,10 +119,10 @@ if s:molokai_original == 1
    hi CursorColumn                  guibg=#3E3D32
    hi ColorColumn                   guibg=#3B3A32
    hi LineNr          guifg=#BCBCBC guibg=#121212
-   hi NonText         guifg=#75715E guibg=none
+   hi NonText         guifg=#75715E guibg=#161616
    hi SpecialKey      guifg=#75715E
 else
-   hi Normal          guifg=#F8F8F2 guibg=none
+   hi Normal          guifg=#F8F8F2 guibg=#161616
    hi NormalFloat     guifg=#DADADA guibg=#262626
    hi Comment         guifg=#585858
    hi CursorLine                    guibg=#293739
@@ -130,7 +130,7 @@ else
    hi CursorColumn                  guibg=#293739
    hi ColorColumn                   guibg=#232526
    hi LineNr          guifg=#465457 guibg=#121212
-   hi NonText         guifg=#465457 guibg=none
+   hi NonText         guifg=#465457 guibg=#161616
    hi SpecialKey      guifg=#465457
 end
 
