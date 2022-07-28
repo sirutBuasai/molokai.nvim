@@ -10,22 +10,6 @@
 
 hi clear
 
-if version > 580
-    " no guarantees for version 5.8 and below, but this makes it stop
-    " complaining
-    hi clear
-    if exists("syntax_on")
-        syntax reset
-    endif
-endif
-let g:colors_name="molokai"
-
-if exists("g:molokai_original")
-    let s:molokai_original = g:molokai_original
-else
-    let s:molokai_original = 0
-endif
-
 hi Boolean         guifg=#AE81FF
 hi Character       guifg=#E6DB74
 hi Number          guifg=#AE81FF
@@ -110,30 +94,16 @@ hi WildMenu        guifg=#66D9EF guibg=#000000
 hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
 hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 
-if s:molokai_original == 1
-   hi Normal          guifg=#F8F8F2 guibg=#161616
-   hi NormalFloat     guifg=#DADADA guibg=#262626
-   hi Comment         guifg=#585858
-   hi CursorLine                    guibg=#3E3D32
-   hi CursorLineNr    guifg=#FD971F               gui=none
-   hi CursorColumn                  guibg=#3E3D32
-   hi ColorColumn                   guibg=#3B3A32
-   hi LineNr          guifg=#BCBCBC guibg=#121212
-   hi NonText         guifg=#75715E guibg=#161616
-   hi SpecialKey      guifg=#75715E
-else
-   hi Normal          guifg=#F8F8F2 guibg=#161616
-   hi NormalFloat     guifg=#DADADA guibg=#262626
-   hi Comment         guifg=#585858
-   hi CursorLine                    guibg=#293739
-   hi CursorLineNr    guifg=#FD971F               gui=none
-   hi CursorColumn                  guibg=#293739
-   hi ColorColumn                   guibg=#232526
-   hi LineNr          guifg=#465457 guibg=#121212
-   hi NonText         guifg=#465457 guibg=#161616
-   hi SpecialKey      guifg=#465457
-end
-
+ hi Normal          guifg=#F8F8F2 guibg=none
+ hi NormalFloat     guifg=#DADADA guibg=#262626
+ hi Comment         guifg=#585858
+ hi CursorLine                    guibg=#3E3D32
+ hi CursorLineNr    guifg=#FD971F               gui=none
+ hi CursorColumn                  guibg=#3E3D32
+ hi ColorColumn                   guibg=#3B3A32
+ hi LineNr          guifg=#BCBCBC guibg=#121212
+ hi NonText         guifg=#75715E guibg=none
+ hi SpecialKey      guifg=#75715E
 
 " Must be at the end, because of ctermbg=234 bug.
 " https://groups.google.com/forum/#!msg/vim_dev/afPqwAFNdrU/nqh6tOM87QUJ
