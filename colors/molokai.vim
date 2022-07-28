@@ -94,16 +94,16 @@ hi WildMenu        guifg=#66D9EF guibg=#000000
 hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
 hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 
- hi Normal          guifg=#F8F8F2 guibg=none
- hi NormalFloat     guifg=#DADADA guibg=#262626
- hi Comment         guifg=#585858
- hi CursorLine                    guibg=#3E3D32
- hi CursorLineNr    guifg=#FD971F               gui=none
- hi CursorColumn                  guibg=#3E3D32
- hi ColorColumn                   guibg=#3B3A32
- hi LineNr          guifg=#BCBCBC guibg=#121212
- hi NonText         guifg=#75715E guibg=none
- hi SpecialKey      guifg=#75715E
+hi Normal          guifg=#F8F8F2 guibg=none
+hi NormalFloat     guifg=#DADADA guibg=#262626
+hi Comment         guifg=#585858
+hi CursorLine                    guibg=#3E3D32
+hi CursorLineNr    guifg=#FD971F               gui=none
+hi CursorColumn                  guibg=#3E3D32
+hi ColorColumn                   guibg=#3B3A32
+hi LineNr          guifg=#BCBCBC guibg=#121212
+hi NonText         guifg=#75715E guibg=none
+hi SpecialKey      guifg=#75715E
 
 " Must be at the end, because of ctermbg=234 bug.
 " https://groups.google.com/forum/#!msg/vim_dev/afPqwAFNdrU/nqh6tOM87QUJ
