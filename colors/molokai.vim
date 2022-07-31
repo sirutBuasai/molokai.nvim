@@ -104,6 +104,7 @@ hi ColorColumn                   guibg=#3B3A32
 hi LineNr          guifg=#BCBCBC guibg=#121212
 hi NonText         guifg=#75715E guibg=none
 hi SpecialKey      guifg=#75715E
+hi EndOfBuffer     guibg=#101010 guifg=#101010
 
 " Must be at the end, because of ctermbg=234 bug.
 " https://groups.google.com/forum/#!msg/vim_dev/afPqwAFNdrU/nqh6tOM87QUJ
